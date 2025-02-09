@@ -1,0 +1,41 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment folder
+venv/
+env/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Flask
+instance/
+*.log
+*.sqlite3
+
+# Sensitive information (for environment variables and credentials)
+.env
+.flaskenv
+config.py
+secret_config.py
+keys/
+secrets/
+*.key
+*.pem
+*.crt
+
+# Database files
+*.sqlite
+
+.idea/
